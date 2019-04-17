@@ -14,7 +14,7 @@
   
 
 
-<html class="theme-next gemini use-motion" lang>
+<html class="theme-next gemini use-motion" lang="zh-CN">
 <head><meta name="generator" content="Hexo 3.8.0">
   <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -24,6 +24,12 @@
 
 
 
+  
+  
+    
+    
+  <script src="/lib/pace/pace.min.js?v=1.0.2"></script>
+  <link rel="stylesheet" href="/lib/pace/.min.css?v=1.0.2">
 
 
 
@@ -38,6 +44,51 @@
 
 
 
+
+
+
+
+  
+  
+  
+  
+
+  
+    
+    
+  
+
+  
+    
+      
+    
+
+    
+  
+
+  
+
+  
+    
+      
+    
+
+    
+  
+
+  
+    
+      
+    
+
+    
+  
+
+  
+    
+    
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Monda:300,300italic,400,400italic,700,700italic|Roboto Slab:300,300italic,400,400italic,700,700italic|Lobster Two:300,300italic,400,400italic,700,700italic|PT Mono:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext">
+  
 
 
 
@@ -100,10 +151,10 @@
 <meta name="keywords" content="图床">
 <meta property="og:type" content="article">
 <meta property="og:title" content="ubuntu+java+imgbb图床脚本">
-<meta property="og:url" content="http://yoursite.com/2019/04/14/ubuntu+xclip+imgbb图床脚本/index.html">
+<meta property="og:url" content="https://oucbl.github.io/2019/04/14/ubuntu+xclip+imgbb图床脚本">
 <meta property="og:site_name" content="Oucbl">
 <meta property="og:description" content="功能 复制 从粘贴板中直接上传">
-<meta property="og:locale" content="default">
+<meta property="og:locale" content="zh-CN">
 <meta property="og:updated_time" content="2019-04-16T13:44:03.709Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="ubuntu+java+imgbb图床脚本">
@@ -111,11 +162,13 @@
 
 
 
+  <link rel="alternate" href="/atom.xml" title="Oucbl" type="application/atom+xml">
+
 
 
   
   
-  <link rel="canonical" href="http://yoursite.com/2019/04/14/ubuntu+xclip+imgbb图床脚本/">
+  <link rel="canonical" href="https://oucbl.github.io/2019/04/14/ubuntu+xclip+imgbb图床脚本">
 
 
 
@@ -166,7 +219,7 @@
 
 </head>
 
-<body itemscope itemtype="http://schema.org/WebPage" lang="default">
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-CN">
 
   
   
@@ -197,7 +250,7 @@
   </div>
 
   <div class="site-nav-toggle">
-    <button aria-label="Toggle navigation bar">
+    <button aria-label="切换导航栏">
       <span class="btn-bar"></span>
       <span class="btn-bar"></span>
       <span class="btn-bar"></span>
@@ -225,7 +278,7 @@
 
     
 
-    <a href="/" rel="section"><i class="menu-item-icon fa fa-fw fa-home"></i> <br>Home</a>
+    <a href="/" rel="section"><i class="menu-item-icon fa fa-fw fa-home"></i> <br>首页</a>
 
   </li>
         
@@ -242,7 +295,7 @@
 
     
 
-    <a href="/about/" rel="section"><i class="menu-item-icon fa fa-fw fa-user"></i> <br>About</a>
+    <a href="/about/" rel="section"><i class="menu-item-icon fa fa-fw fa-user"></i> <br>关于</a>
 
   </li>
         
@@ -259,7 +312,7 @@
 
     
 
-    <a href="/tags/" rel="section"><i class="menu-item-icon fa fa-fw fa-tags"></i> <br>Tags</a>
+    <a href="/tags/" rel="section"><i class="menu-item-icon fa fa-fw fa-tags"></i> <br>标签</a>
 
   </li>
         
@@ -276,7 +329,7 @@
 
     
 
-    <a href="/categories/" rel="section"><i class="menu-item-icon fa fa-fw fa-th"></i> <br>Categories</a>
+    <a href="/categories/" rel="section"><i class="menu-item-icon fa fa-fw fa-th"></i> <br>分类</a>
 
   </li>
         
@@ -293,7 +346,7 @@
 
     
 
-    <a href="/archives/" rel="section"><i class="menu-item-icon fa fa-fw fa-archive"></i> <br>Archives</a>
+    <a href="/archives/" rel="section"><i class="menu-item-icon fa fa-fw fa-archive"></i> <br>归档</a>
 
   </li>
 
@@ -345,11 +398,11 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/04/14/ubuntu+xclip+imgbb图床脚本/">
+    <link itemprop="mainEntityOfPage" href="https://oucbl.github.io/2019/04/14/ubuntu+xclip+imgbb图床脚本">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="保罗">
-      <meta itemprop="description" content>
+      <meta itemprop="description" content="Oucbl个人站">
       <meta itemprop="image" content="/images/avatar.gif">
     </span>
 
@@ -381,14 +434,14 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Posted on</span>
+                <span class="post-meta-item-text">发表于</span>
               
 
               
                 
               
 
-              <time title="Created: 2019-04-14 03:20:11" itemprop="dateCreated datePublished" datetime="2019-04-14T03:20:11+08:00">2019-04-14</time>
+              <time title="创建时间：2019-04-14 03:20:11" itemprop="dateCreated datePublished" datetime="2019-04-14T03:20:11+08:00">2019-04-14</time>
             
 
             
@@ -403,9 +456,9 @@
                   <i class="fa fa-calendar-check-o"></i>
                 </span>
                 
-                  <span class="post-meta-item-text">Edited on</span>
+                  <span class="post-meta-item-text">更新于</span>
                 
-                <time title="Modified: 2019-04-16 21:44:03" itemprop="dateModified" datetime="2019-04-16T21:44:03+08:00">2019-04-16</time>
+                <time title="修改时间：2019-04-16 21:44:03" itemprop="dateModified" datetime="2019-04-16T21:44:03+08:00">2019-04-16</time>
               
             
           </span>
@@ -484,7 +537,7 @@
 
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/2019/04/14/hello-world/" rel="prev" title="hello">
+              <a href="/2019/04/14/hello-world" rel="prev" title="hello">
                 hello <i class="fa fa-chevron-right"></i>
               </a>
             
@@ -507,6 +560,11 @@
 
           </div>
           
+
+  
+    <div class="comments" id="comments">
+      <div id="lv-container" data-id="city" data-uid="MTAyMC80Mzc3NC8yMDMxMw=="></div>
+    </div>
 
   
 
@@ -536,7 +594,7 @@
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
               <p class="site-author-name" itemprop="name">保罗</p>
-              <div class="site-description motion-element" itemprop="description"></div>
+              <div class="site-description motion-element" itemprop="description">Oucbl个人站</div>
           </div>
 
           
@@ -547,7 +605,7 @@
                   <a href="/archives/">
                 
                     <span class="site-state-item-count">3</span>
-                    <span class="site-state-item-name">posts</span>
+                    <span class="site-state-item-name">日志</span>
                   </a>
                 </div>
               
@@ -568,13 +626,20 @@
                       
                     
                     <span class="site-state-item-count">3</span>
-                    <span class="site-state-item-name">tags</span>
+                    <span class="site-state-item-name">标签</span>
                   
                 </div>
               
             </nav>
           
 
+          
+            <div class="feed-link motion-element">
+              <a href="/atom.xml" rel="alternate">
+                <i class="fa fa-rss"></i>
+                RSS
+              </a>
+            </div>
           
 
           
@@ -658,6 +723,9 @@
     <script type="text/javascript" src="https://s5.cnzz.com/z_stat.php?id=1277143533&web_id=1277143533"></script>
 
 
+<div class="theme-info">
+  <span class="post-count">Total Words:</span>
+</div>
         
 
 
@@ -705,12 +773,6 @@
 
 
 
-
-  
-    
-    
-  
-  <script color="0,0,255" opacity="0.5" zindex="-1" count="99" src="/lib/canvas-nest/canvas-nest.min.js"></script>
 
 
 
@@ -774,6 +836,21 @@
 
   
 
+
+  
+    <script>
+  window.livereOptions = {
+    refer: '2019/04/14/ubuntu+xclip+imgbb图床脚本'
+  };
+  (function(d, s) {
+    var j, e = d.getElementsByTagName(s)[0];
+    if (typeof LivereTower === 'function') { return; }
+    j = d.createElement(s);
+    j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+    j.async = true;
+    e.parentNode.insertBefore(j, e);
+  })(document, 'script');
+</script>
 
   
 
